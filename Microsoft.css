@@ -1,0 +1,484 @@
+*{
+    margin:0px; 
+    padding:0px;
+}
+body{
+    font-size: 15px;
+    font-family: 'Segoe UI', SegoeUI, 'Microsoft YaHei', 微软雅黑, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    background-color: #FFF;
+}
+#head{
+    width:1214px;
+    height:50px;
+    padding:0px 67.5px;
+}
+#microsoft_picture{
+    width:108px; height:23px;
+}
+#picture{
+    padding: 13px 20px 10px 12px;
+    width: 108px;
+    height: 23;
+    margin-top: 0px;
+    margin-left: -12px;
+    float: left;
+}
+#first{
+    display:inline-block;
+}
+#shop{
+    display:inline-block; 
+    padding:13px 38px 13px 26px;
+    width:30px;
+    height:20px;
+    border:1px;
+    border-color:white;
+    margin-top:1px;
+    position: relative; 
+}
+.shang-dian{
+    position:absolute;
+    right:21px;
+    top:13px; 
+}
+#shop:hover #in1{
+    display:block; 
+}
+#in1{
+    position: absolute; 
+    left:0px;
+    top:48px;
+    display:none;
+    width:294px;
+    height:224px; 
+    border:1px 1px 2px 1px #f2f2f2;
+    background: #f2f2f2;
+    margin-top:-2px; 
+}
+.block{
+    padding:18px 0px 18px 24px;
+    width:270px;
+    height:20px;
+    list-style:none;
+}
+#app:hover #in3{
+    display:block; 
+}
+#in3{
+    position: absolute;
+    left:294px;
+    top:2px; 
+    display:none;
+    width:294px;
+    height:224px; 
+    border:1px 1px 2px 1px #e6e6e6;
+    background: #e6e6e6;
+    margin-top:-2px; 
+
+}
+#game:hover #in4{
+    display:block;
+}
+#in4{
+    position: absolute;
+    left:294px;
+    top:2px;
+    display:none;
+    width:294px;
+    height:224px; 
+    border:1px 1px 2px 1px #e6e6e6;
+    background: #e6e6e6;
+    margin-top:-2px; 
+}
+#prodect{
+    display:inline-block;
+    padding:13px 38px 13px 26px;
+    width:30px;
+    height:20px;
+    border:1px;
+    border-color:white;
+    margin-top:1px;
+    position: relative;
+}
+.chan-pin{
+    position:absolute;
+    right:21px;
+    top:13px; 
+}
+#prodect:hover #in2{
+    display:block 
+}
+#in2{
+    position: absolute; 
+    left:0px;
+    top:48px;
+    display:none;
+    width:294px;
+    height:280px; 
+    border:1px 1px 2px 1px #f2f2f2;
+    background: #f2f2f2;
+    margin-top:-2px;
+}
+#soft:hover #in5{
+    display:block; 
+}
+#in5{
+    position: absolute;
+    left:294px;
+    top:2px;
+    display:none;
+    width:294px;
+    height:560px; 
+    border:1px 1px 2px 1px #e6e6e6;
+    background: #e6e6e6;
+    margin-top:-2px; 
+}
+#box:hover #in6{
+    display:block;
+}
+#in6{
+    position: absolute;
+    left:294px;
+    top:2px;
+    display:none;
+    width:294px;
+    height:336px; 
+    border:1px 1px 2px 1px #e6e6e6;
+    background: #e6e6e6;
+    margin-top:-2px;
+}
+#business:hover #in7{
+    display:block;
+}
+#in7{
+    position: absolute;
+    left:294px;
+    top:2px;
+    display:none;
+    width:294px;
+    height:560px; 
+    border:1px 1px 2px 1px #e6e6e6;
+    background: #e6e6e6;
+    margin-top:-2px;
+}
+#IT:hover #in8{
+    display:block;
+}
+#in8{
+    position: absolute;
+    left:294px;
+    top:2px;
+    display:none;
+    width:294px;
+    height:280px; 
+    border:1px 1px 2px 1px #e6e6e6;
+    background: #e6e6e6;
+    margin-top:-2px;
+}
+#study:hover #in9{
+    display:block;
+}
+#in9{
+    position: absolute;
+    left:294px;
+    top:2px;
+    display:none;
+    width:294px;
+    height:280px; 
+    border:1px 1px 2px 1px #e6e6e6;
+    background: #e6e6e6;
+    margin-top:-2px;
+}
+#zhichi{
+    display:inline-block;
+    padding:14px 27px 10px 27px;
+    width:30px;
+    height:24px;
+    margin-top:1px;
+}
+.line:hover{
+    text-decoration:underline;
+    background:#f2f2f2;
+}
+input{
+    border:none;
+    font-size:16px; 
+}
+form{
+    display:inline-block;
+    float:left;
+}
+#search-picture{
+    display:inline-block;
+    float:left;
+    position: relative;
+    left:15%;
+    bottom:4%
+}
+#search{
+    display:inline-block;
+    float:right;
+    width:214px;
+    height:20px;
+    padding:8px 38px 9px 10px;
+    border:1px solid black;
+    margin-top:5px;  
+}
+#go-to-shop{
+    display:inline-block;
+    float:right;
+    padding:8px;
+}
+#denglu{
+    display:inline-block;
+    float:right;
+    padding:13px; 
+}
+#denglu:hover{
+    color:#0067B8;
+}
+#body1{
+    width:1214px;
+    height:502px;
+    padding:0px 67.5px;
+}
+#body2{
+    width:1214px;
+    height:319px;
+    padding:0px 67.5px;
+}
+h2{
+    width:267.5px;
+    height:48px;
+}
+h3{
+    width:255.5px;
+    height:24px;
+    padding:12px 12px 2px 0px;
+}
+.middle-word{
+    width:255.5px;
+    height:20px;
+    padding:2px 12px 0px 0px;
+}
+.middle-word-ex{
+    width:255.5px;
+    height:40px;
+    padding:2px 12px 0px 0px;
+}
+.end-word{
+    width:60px;
+    height:20px;
+    padding:10px 16px 10px 0px;
+    color:#0067B8; 
+}
+.end-word-ex{
+    width:138px;
+    height:20px;
+    padding:10px 16px 10px 0px;
+    color:#0067B8;
+}
+.end-word-over{
+    width:144px;
+    height:20px;
+    padding:10px 16px 10px 0px;
+    color:#0067B8;
+}
+h3:hover{
+    text-decoration:underline;
+}
+.end-word-over:hover{
+    text-decoration:underline;
+}
+.end-word:hover{
+    text-decoration:underline;
+}
+.end-word-ex:hover{
+    text-decoration:underline;
+}
+.p{
+    width:267.5px;
+    height:319px;
+    padding:0px 12px;
+    display:inline-block;
+    vertical-align:top; 
+}
+#body3{
+    width:1214px;
+    height:502px;
+    padding:0px 67.5px;
+}
+#body4{
+    width:1214px;
+    height:367px;
+    padding:0px 67.5px;
+}
+#body5{
+    width:1214px;
+    height:502px;
+    padding:0px 67.5px;
+}
+#body6{
+    width:1214px;
+    height:80px;
+    padding:0px 67.5px;
+}
+#guanzhu{
+    display:inline-block;
+}
+#wechat{
+    display:inline-block; 
+}
+#er-wei-ma{
+    display:none;
+    width:90px;
+    height:90px;
+    position:absolute;
+    left:135px;
+}
+#wechat:hover #er-wei-ma{
+    display:block;
+}
+#weibo{
+    display:inline-block;
+}
+#body7{
+    width:1214px;
+    height:324px;
+    padding:0px 67.5px;
+    margin:48px 0px 0px 0px;
+    background-color:#f2f2f2; 
+}
+h6{
+    width:190px;
+    height:20px;
+    padding:36px 0px 4px 0px;
+}
+.list1{
+    width:190px;
+    height:16px;
+    padding:8px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    list-style:none;
+}
+.the-end{
+    padding:0px 12px 0px 0px;
+    width:190px;
+    height:228px;
+    float: left;
+}
+.the-end-next{
+    padding:0px 12px;
+    width:178px;
+    height:228px;
+    float: left;
+}
+#body8{
+    width:1214px;
+    height:72px;
+    padding:0px 67.5px;
+    background-color:#f2f2f2; 
+}
+#earth{
+    width:20px;
+    height:24px;
+    margin:0px 10px 0px 0px;
+}
+.c{
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: left;
+}
+.list9{
+    width:60px;
+    height:16px;
+    padding:0px 24px 4px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: right;
+    list-style:none;
+}
+.list8{
+    width:76px;
+    height:16px;
+    padding:0px 24px 4px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: right;
+    list-style:none;
+}
+.list7{
+    width:48px;
+    height:16px;
+    padding:0px 24px 4px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: right;
+    list-style:none;
+}
+.list6{
+    width:24px;
+    height:16px;
+    padding:0px 24px 4px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: right;
+    list-style:none;
+}
+.list5{
+    width:84px;
+    height:16px;
+    padding:0px 24px 4px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: right;
+    list-style:none;
+}
+.list4{
+    width:113px;
+    height:16px;
+    padding:0px 24px 4px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: right;
+    list-style:none;
+}
+.list3{
+    width:147px;
+    height:16px;
+    padding:0px 24px 4px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: right;
+    list-style:none;
+}
+.list2{
+    width:92px;
+    height:16px;
+    padding:0px 24px 4px 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    float: right;
+    list-style:none;
+}
+.c:hover{
+    text-decoration:underline;
+}
+.list1:hover{
+    text-decoration:underline;
+}
+.list2:hover{
+    text-decoration:underline;
+}
